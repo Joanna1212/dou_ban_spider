@@ -31,7 +31,7 @@ class DouBanSpider(object) :
         self.cur_url = "http://movie.douban.com/top250?start={page}&filter=&type="
         self.datas = []
         self._top_num = 1
-        print "豆瓣电影爬虫准备就绪, 准备爬取数据..."
+        print("豆瓣电影爬虫准备就绪, 准备爬取数据...")
 
     def get_page(self, cur_page) :
         """
